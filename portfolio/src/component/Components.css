@@ -1,0 +1,107 @@
+/* Set the font for the entire body */
+body {
+    font-family: 'Your Preferred Font', sans-serif;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background-color: #000808;
+    box-shadow: 0 4px 8px rgba(207, 161, 161, 0.1); /* Add a subtle box-shadow */
+}
+
+/* Styling for hyperlinks */
+a {
+    color: #bd4d53;
+}
+
+/* Styling for elements with the class 'tools' */
+.tools {
+    color: rgb(238, 16, 16);
+}
+
+/* Styling for titles with the class 'title' */
+.title {
+    color: #f5bebe;
+    font-size: 1rem;
+    transition: color 0.3s, font-size 0.3s; /* Add transitions for smoother effects */
+}
+
+/* Styling for title hover effect */
+.title:hover {
+    color: rgba(117, 8, 8, 0.784);
+    font-size: 2rem;
+}
+
+/* Styling for active navigation links */
+.navbar-nav .nav-link.active {
+    color: #f5bebe;
+    font-size: 1rem;
+}
+
+/* Styling for active navigation link hover effect */
+.navbar-nav:hover .nav-link.active:hover {
+    color: rgba(117, 8, 8, 0.784);
+    font-size: 1.5rem;
+}
+
+/* Styling for buttons with the class 'submitBtn' */
+.submitBtn {
+    background-color: #103fdb;
+    border-radius: 10px;
+}
+
+/* Styling for button hover effect */
+.submitBtn:hover {
+    background-color: #4a2e57;
+}
+
+/* Styling for elements with the class 'input' */
+.input {
+    border-radius: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Styling for the footer */
+.footer {
+    background-color: #2c3e50;
+}
+
+/* Styling for cards */
+.card {
+    background-color: #bd4d53;
+}
+
+/* Styling for card hover effect */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(245, 245, 245, 0.2); /* Increase box-shadow on hover */
+    transform: scale(1.05); /* Scale up the card on hover */
+}
+
+/* Styling for card footer */
+.card-footer {
+    background-color: rgb(180, 141, 141);
+}
+
+/* Styling for form header */
+.form-header {
+    color: #f5bebe;
+}
+
+/* Styling for elements with the class 'my-5' */
+.my-5 {
+    background-color: #c3cbe6;
+}
+
+/* Styling for elements with the class 'mb-5' */
+.mb-5 {
+    font-size: 16px;
+}
+
+/* Styling for elements with the class 'p-5' */
+.p-5 {
+    color: #f5bebe;
+    font-size: 16px;
+}

@@ -1,31 +1,33 @@
-// Importing the CSS file for styling
-import "./Components.css";
+// Importing ReactDOM for potential use in the future
+import ReactDOM from 'react-dom';
 
-// Importing FontAwesome icons and utilities
+// Importing React and FontAwesome icons
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faLinkedin, faGithub, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-// Functional component for the footer
-function Footer() {
+// Functional component for displaying contact icons
+function ContactIcons() {
     return (
-        <div className="my-5">
-            {/* Footer section */}
-            <footer>
-                <div className="text-center">
+        <div className='pb-5'>
+            {/* Heading for the contact icons */}
+            <h3 className="p-5">Contacts below:</h3>
+            <div className="px-5 py-1 inline-block">
+                <h3>
                     {/* Email icon with mailto link */}
                     <a href='mailto:mom_adjei@yahoo.com' target="_blank" className='p-2'>
-                        <FontAwesomeIcon icon={faEnvelope} size="xl" />
+                        <FontAwesomeIcon icon={faEnvelope} size="xl"/>
                     </a>
 
                     {/* LinkedIn icon with link */}
                     <a href='https://www.linkedin.com/in/michael-adjei-6b2898188/' target="_blank" className='p-2'>
-                        <FontAwesomeIcon icon={faLinkedin} size="xl" />
+                        <FontAwesomeIcon icon={faLinkedin} size="xl"/>
                     </a>
 
                     {/* GitHub icon with link */}
                     <a href='https://github.com/' target="_blank" className='p-2'>
-                        <FontAwesomeIcon icon={faGithub} size="xl" />
+                        <FontAwesomeIcon icon={faGithub} size="xl"/>
                     </a>
 
                     {/* Twitter icon with link */}
@@ -37,14 +39,11 @@ function Footer() {
                     <a href='https://www.instagram.com/' target="_blank" className='p-2'>
                         <FontAwesomeIcon icon={faInstagram} size="xl" />
                     </a>
-                </div>
-
-                {/* Copyright text */}
-                <div className="footer-copyright text-center py-3">Mykulcoding / All rights reserved</div>
-            </footer>
+                </h3>
+            </div>
         </div>
     );
 }
 
-// Exporting the Footer component
-export default Footer;
+// Exporting the ContactIcons component
+export default ContactIcons;
