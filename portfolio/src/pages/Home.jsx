@@ -10,7 +10,7 @@ function Home() {
         <div className='background min-vh-100 pb-5 m-0'>
             <div className='row g-0 p-5 align-items-center'>
                 <div className='col col-lg-4 p-4'>
-                <img src="../../public/assets/headshot.jpg" alt='Profile Picture' className='img-fluid' />
+                <img src="./assets/headshot.jpg" alt='Profile Picture' className='img-fluid' />
                 </div>
 
                 <div className='col col-lg-7'>
@@ -22,7 +22,9 @@ function Home() {
                         Driven by a relentless pursuit of excellence, I draw inspiration from the ever-evolving landscape of web development. Armed with a solid foundation and continuous learning mindset, I have honed my skills through a comprehensive edx web development certification program. This journey has equipped me with the latest industry trends, best practices, and cutting-edge technologies.
                         <br />
                         <br />
-                        Seeking opportunities in the fields of Web Development and Testing. Please review my CV <a href='portfolio\src\assets\MA_CV (1).pdf' target="_blank" rel="noopener noreferrer">here</a>.
+                        Seeking opportunities in the fields of Web Development and Testing. Please review my CV 
+                        {/* <a href='portfolio\src\assets\MA_CV (1).pdf' target="_blank" rel="noopener noreferrer">here</a> */}
+                        <a href='./assets/MA_CV.pdf' target="_blank" rel="noopener noreferrer">here</a>
                     </h5>
                 </div>
             </div>
