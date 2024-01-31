@@ -2,6 +2,7 @@
 import './PageStyles.css';
 
 // import headshotImage from '../asset/headshot.jpg';
+import headshot from "../../public/assets/headshot.jpg"
 
 // Functional component for the Home page
 function Home() {
@@ -9,7 +10,7 @@ function Home() {
         <div className='background min-vh-100 pb-5 m-0'>
             <div className='row g-0 p-5 align-items-center'>
                 <div className='col col-lg-4 p-4'>
-                <img src="../asset/headshot.jpg" alt='Profile Picture' className='img-fluid' />
+                <img src="../../public/assets/headshot.jpg" alt='Profile Picture' className='img-fluid' />
                 </div>
 
                 <div className='col col-lg-7'>
