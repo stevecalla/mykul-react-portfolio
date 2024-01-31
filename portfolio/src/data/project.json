@@ -5,7 +5,7 @@
         "description": "A command-line application that generates a HTML webpage displaying a company's team members information.",
         "deployed": "https://mykulcoding.github.io/Team-Profile-Generator/",
         "github": "https://github.com/Mykulcoding/Team-Profile-Generator",
-        "image": "/Team_profile_gen.PNG"
+        "image": "./assets/Team_profile_gen.PNG"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "description": "This is a command-line application that generates a professional README file for a new project using Node.js and npm.",
         "deployed": "https://mykulcoding.github.io/Mykul-README-generator/",
         "github": "https://github.com/Mykulcoding/Mykul-README-generator" ,
-        "image":"/Readme_gen.PNG"
+        "image":"./assets/Readme_gen.PNG"
     },  
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "description": "TrendTube is a web application designed for news exploration, providing users with a dynamic combination of news articles and related YouTube videos. This project uses two APIs to deliver real-time content.",
         "deployed": "https://mykulcoding.github.io/TrendTube/",
         "github": "https://github.com/Mykulcoding/TrendTube",
-        "image": "/trend_tube.PNG"
+        "image": "./assets/trend_tube.PNG"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "description": "A simple web application that displays current weather information and a 5-day forecast for a given city.",
         "deployed": "https://mykulcoding.github.io/EM-Weather-Dashboard/",
         "github": "https://github.com/Mykulcoding/EM-Weather-Dashboard",
-        "image": "/weather-dashboard.PNG"
+        "image": "./assets/weather-dashboard.PNG"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "description": "This is a simple calendar application that enables users to manage their daily schedule effectively.",
         "deployed": "https://mykulcoding.github.io/EM-Work-Day-Scheduler/",
         "github": "https://github.com/Mykulcoding/EM-Work-Day-Scheduler",
-        "image": "/workday_scheduler.PNG"
+        "image": "./assets/workday_scheduler.PNG"
     },
     {
         "id": 6,
@@ -45,6 +45,6 @@
         "description": "This coding quiz is designed to test your coding knowledge within a limited time frame.",
         "deployed": "https://mykulcoding.github.io/EM-Coding-Quiz/",
         "github": "https://github.com/Mykulcoding/EM-Coding-Quiz",
-        "image": "/Quiz.PNG"
+        "image": "./assets/Quiz.PNG"
     }
 ]
